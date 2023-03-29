@@ -1,0 +1,56 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .header-menu-mob {
+
+        width: 428px;
+        height: 796px;
+        padding: 40px;
+    }
+
+    .header-nav {}
+
+    .header-text {
+        font-size: 36px;
+
+    }
+
+    .menu-link {
+        padding: 24px 0;
+    }
+
+    .contact-phone-number {
+        font-size: 36px;
+        letter-spacing: 0.013em;
+    }
+
+    .contact-email {
+        font-style: normal;
+        color: var(--secondary-color-text);
+        transition: color var(--transition-func);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+
+
+
+
+    /* MODAL WINDOW */
+
+    .modal {
+        width: 392px;
+
+    }
+
+    .modal-form-check-desc {
+        display: flex;
+        align-items: center;
+
+    }
+
+
+}
