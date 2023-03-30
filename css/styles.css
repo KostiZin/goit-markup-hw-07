@@ -50,7 +50,7 @@ button {
 	margin: 0 auto;
 	padding: 0 15px;
 	width: 100%;
-
+	max-width: 426px;
 }
 
 
@@ -128,9 +128,9 @@ button {
 
 	display: flex;
 	flex-direction: column;
-	position: absolute;
-	width: 300px;
-	height: 600px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
 	right: 0px;
 	top: 0px;
 	padding: 30px;
@@ -531,11 +531,11 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: var(--main-gap-bottom) var(--main-gap);
+	gap: 72px 16px;
 }
 
 .customers-item {
-	width: 168px;
+	width: 190px;
 	height: 88px;
 
 }
@@ -736,7 +736,8 @@ button {
 }
 
 .modal {
-	width: 310px;
+	max-width: 392px;
+	width: 100%;
 	min-height: 586px;
 	background: #fcfcfc;
 	padding: 24px;
@@ -894,7 +895,8 @@ button {
 }
 
 .modal-form-check-desc {
-	display: inline;
+	display: flex;
+	align-items: center;
 	margin-top: 0;
 	font-size: 12px;
 	line-height: 1.33;
@@ -904,6 +906,7 @@ button {
 
 .modal-form-check-desc::before {
 	content: '';
+	flex-shrink: 0;
 	width: 16px;
 	height: 16px;
 	border: 1px solid var(--main-color-dark);

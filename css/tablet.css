@@ -184,7 +184,9 @@
         flex-basis: calc((100% - 24px) / 2);
     }
 
-    .features-subtitle {}
+    .features-subtitle {
+        justify-content: unset;
+    }
 
     .features-description {
         font-weight: 500;
@@ -216,8 +218,16 @@
 
     /* =================== /OUR TEAM ============================ */
     /* =================== CUSTOMERS =========================== */
+    .customers-list {
+        gap: var(--main-gap-bottom) var(--main-gap);
+    }
 
 
+    .customers-item {
+        width: 168px;
+
+
+    }
 
 
     /* =================== /CUSTOMERS =========================== */
@@ -311,8 +321,7 @@
     }
 }
 
-@media screen and (min-width: 768px),
-(max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
     .container-sm {
         max-width: 582px;
