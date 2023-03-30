@@ -1,3 +1,28 @@
+@media screen and (max-width: 428px) {
+
+    .contact-phone-number {
+        /* font-size: 7vw; */
+        /* font-size: 36px; */
+
+    }
+
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-section/mobile/mob-hero-bg.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-section/mobile/mob-hero-bgx2.jpg);
+        }
+    }
+}
+
 @media screen and (min-width: 480px) {
     .container {}
 
@@ -8,18 +33,18 @@
 
     .header-nav {}
 
-    .header-text {
-        font-size: 36px;
-
-    }
+    .header-text {}
 
     .menu-link {
         padding: 24px 0;
     }
 
     .contact-phone-number {
+
+        font-weight: 600;
         font-size: 36px;
-        letter-spacing: 0.013em;
+        line-height: 1.11;
+        letter-spacing: 0.01em;
     }
 
     .contact-email {
@@ -32,8 +57,24 @@
 
     }
 
+    .menu-mob-social-list {
+        gap: 56px;
+        justify-content: unset;
+    }
 
+    /* =========================== HERO ====================== */
 
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-section/tablet/tablet-hero-bgx2.jpg);
+        }
+    }
+
+    /* =========================== /HERO ====================== */
 
     /* MODAL WINDOW */
 

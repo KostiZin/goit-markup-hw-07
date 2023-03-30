@@ -111,7 +111,7 @@
 
     .address:not(:last-child) {
         /* margin-right: 40px; */
-        margin-bottom: unset;
+        margin-bottom: 4px;
     }
 
     .contact-email {
@@ -120,9 +120,11 @@
         font-size: 12px;
         line-height: 1.33;
         letter-spacing: 0.04em;
+
     }
 
     .contact-phone-number {
+        color: var(--secondary-color-text);
         font-weight: 400;
         font-size: 12px;
         line-height: 1.33;
@@ -146,7 +148,7 @@
     .hero {
         padding-bottom: 108px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-section/tablet/tablet-hero-bg.jpg);
+            url(../images/hero-section/people-office.jpg);
 
     }
 
@@ -156,7 +158,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/hero-section/tablet/tablet-hero-bgx2.jpg);
+                url(../images/hero-section/desktop-hero-bgx2.jpg);
         }
     }
 
